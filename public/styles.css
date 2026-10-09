@@ -1,0 +1,100 @@
+:root {
+  --main-linear: linear-gradient(to right, #672280, #A626D3);
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 477px;
+  margin-left: auto;
+  margin-right: auto;
+}
+header {
+  background-image: var(--main-linear);
+}
+header .container {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+header .container span {
+  color: white;
+  text-transform: capitalize;
+  font-weight: 700;
+  font-size: 1.3rem;
+}
+main {
+  padding: 28px 36px 47px;
+}
+main .form {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  font-family: "Karla", "sans-serif";
+}
+main .form label {
+  font-weight: 500;
+  font-size: 0.9rem;
+  color: #374151;
+  text-transform: capitalize;
+  margin-bottom: 15px;
+}
+main label input {
+  margin-top: 3px;
+  display: block;
+  width: 222px;
+  border-radius: 4.91px;
+  border: 0.82px #D1D5DB solid;
+  padding: 7px 10px;
+  box-shadow: 0 0.82px 1.64px #00000005;
+  color: #6B7280;
+  font-weight: 400;
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+main label input:focus {
+  outline: none;
+}
+main .form button {
+  background-image: var(--main-linear);
+  border-radius: 5px; 
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1;
+  letter-spacing: -1%;
+  text-align: center;
+  color: white;
+  width: 100%;
+  margin-bottom: 32px;
+  padding-block: 10px;
+  border: 0;
+  cursor: pointer;
+}
+main .meme-container {
+  width: 477px;
+  position: relative;
+}
+main .meme-container img {
+  width: 100%;
+}
+main .meme-container .top,
+main .meme-container .bottom {
+  position: absolute;
+  width: calc(100% - 20px);
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 2rem;
+  line-height: 1;
+  font-weight: 900;
+  color: white;
+  left: 0;
+  -webkit-text-stroke: .7px black;
+  font-family: "Impact", "sans-serif";
+}
+.top {
+  top: 16px;
+}
+.bottom {
+  bottom: 16px;
+}

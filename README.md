@@ -5,7 +5,7 @@ A fully responsive meme generator app for creating custom memes, built using Rea
 This is a fully responsive meme generator built with React and Vite. It fetches meme templates from the Imgflip API and lets users add custom top and bottom text in real time. The project goes beyond a static template by incorporating dynamic elements like random image selection, controlled form inputs, and live text overlays on meme images.
 
 ## 🚀 Live Demo
-[View the live project here]()
+[View the live project here](https://abdullahalbaaj.github.io/memes-generator/)
 
 ## 🛠️ Built With
 - **React 18** – Component-based UI with hooks (`useState`, `useEffect`)
